@@ -1,11 +1,11 @@
 ### Iniciar el ejercicio
 Funciona con venv/, para iniciar el entorno: 
-```css
+```shell
 source venv/bin/activate
 ```
 
 Para ejecutar el script: 
-```css
+```shell
 python3 .
 ```
 
@@ -18,13 +18,13 @@ El CSV lo he limpiado y he quitado la tabla de media porque me parecía redundan
 El JSON lo he reestructurado para que se parezca más a una API con la siguiente estructura: 
 Las temperaturas las he almacenado como array para facilitar el locale
 
-```json
+```js
 {
     id: Number,
     geom: {
         long: Number, 
         lat: Number
     },
-    temperatures: Array (length 12)
+    temperatures: Array // (length 12)
 }
 ```
