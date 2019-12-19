@@ -1,9 +1,13 @@
 ### Iniciar el ejercicio
 Funciona con venv/, para iniciar el entorno: 
-~~~~source venv/bin/activate
+```css
+source venv/bin/activate
+```
 
 Para ejecutar el script: 
-~~~~python3 .
+```css
+python3 .
+```
 
 ### Comentarios
 El dataset está en data/raw/dataset.txt
@@ -14,7 +18,8 @@ El CSV lo he limpiado y he quitado la tabla de media porque me parecía redundan
 El JSON lo he reestructurado para que se parezca más a una API con la siguiente estructura: 
 Las temperaturas las he almacenado como array para facilitar el locale
 
-~~~~{
+```json
+{
     id: Number,
     geom: {
         long: Number, 
@@ -22,3 +27,4 @@ Las temperaturas las he almacenado como array para facilitar el locale
     },
     temperatures: Array (length 12)
 }
+```
