@@ -1,11 +1,11 @@
-# Iniciar el ejercicio
+### Iniciar el ejercicio
 Funciona con venv/, para iniciar el entorno: 
-~~~~source venv/bin/activate~~~~
+~~~~source venv/bin/activate
 
 Para ejecutar el script: 
-~~~~python3 .~~~~
+~~~~python3 .
 
-# Comentarios
+### Comentarios
 El dataset está en data/raw/dataset.txt
 Y al ejecutar el programa guarda los formatos CSV y JSON en data/processed/
 
@@ -21,4 +21,4 @@ Las temperaturas las he almacenado como array para facilitar el locale
         lat: Number
     },
     temperatures: Array (length 12)
-}~~~~
+}
